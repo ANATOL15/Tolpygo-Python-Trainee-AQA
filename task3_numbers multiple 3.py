@@ -1,10 +1,14 @@
-for i in range(1,50):
+
+m = int(input('Введите начальное число диапазона: '))
+n = int(input('Введите конечное число диапазона: ')) + 1
+for i in range(m,n):
+
     if i%3==0:
-        print(i)
+        print(i, "кратно 3")
+    else:
+        print (i, "не кратно 3")
 
 
 
 
-# или записать одной строкой
-# print([i for i in range(1,1001) if i%3==0])
 
